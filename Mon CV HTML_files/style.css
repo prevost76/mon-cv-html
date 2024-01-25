@@ -1,0 +1,72 @@
+/* Base */
+body {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(58, 6, 110);
+  width: min(1200px, calc(100% - 4rem));
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(300, 100%, 100%);
+}
+
+h2 {
+  background-color: hsl(152, 85%, 60%);
+  color: hsl(0, 0%, 93%);
+  border-radius: 100vmax;
+  padding: 0.25rem 1.5rem;
+  width: maxs-content;
+}
+
+a {
+  color: inherit;
+}
+
+/* Object */
+.header {
+  display: flex;
+  gap: 10rem;
+}
+
+.header__image {
+  width: 250px;
+  height: auto;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10rem;
+  margin-right: 5rem;
+}
+
+/* Component */
+.bloc {
+  padding: 1rem;
+  background-color: hwb(278 35% 16%);
+  border-radius: 1rem;
+}
+
+/* Responsive */
+@media (min-width: 1024px) {
+  .columns {
+    display: flex;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.liste1,
+.liste2 {
+  list-style: none;
+  padding: 8;
+}
