@@ -23,7 +23,6 @@ h2 {
   color: rgb(255, 255, 255);
   border-radius: 100vmax;
   padding: 0.25rem 1.5rem;
-  width: maxs-content;
 }
 
 a {
@@ -45,7 +44,6 @@ a {
   display: block;
   flex-direction: row-reverse;
   gap: 10rem;
-  margin-right: rem;
 }
 
 /* Component */
