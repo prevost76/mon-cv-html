@@ -1,0 +1,106 @@
+/* Base */
+body {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: hwb(250 8% 90%);
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(150deg, #ffffff, #dcdef1);
+
+  width: min(1200px, calc(100% - 4rem));
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: hwb(244 1% 86%);
+}
+
+h2 {
+  background-color: hsl(152, 85%, 60%);
+  color: rgb(255, 255, 255);
+  border-radius: 100vmax;
+  padding: 0.25rem 1.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+/* Object */
+.header {
+  display: flex;
+  gap: 5rem;
+}
+
+.header__image {
+  width: 250px;
+  height: auto;
+}
+
+.columns {
+  display: block;
+  flex-direction: row-reverse;
+  gap: 10rem;
+}
+
+/* Component */
+.bloc {
+  padding: 1rem;
+  background-color: #d7a9f1;
+  border-radius: 1rem;
+}
+
+/* Responsive */
+@media (min-width: 1024px) {
+  .columns {
+    display: flex;
+  }
+}
+
+#competences {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.liste1,
+.liste2 {
+  list-style: none;
+  text-align: left;
+}
+
+.container1 {
+  display: flex;
+}
+
+.liste3,
+.liste4,
+.liste5 {
+  flex: 1;
+  border: 1px;
+}
+
+#hobbies h2 {
+  margin-left: -28px;
+}
+
+#experiences {
+  height: 10px;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  border-right: 5px solid hsl(279, 32%, 86%);
+  padding-right: 80px;
+  margin-right: -80px;
+}
